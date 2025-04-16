@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4b408286-488d-4e94-bc78-8d2b7179b838</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ASCII_Assignment08.py</StartupFile>
+    <StartupFile>mainPackage\main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,27 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ASCII_Assignment08.py" />
+    <Compile Include="finderPackage\finder.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="finderPackage\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mainPackage\main.py" />
+    <Compile Include="mainPackage\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="utilsPackage\utils.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="utilsPackage\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="finderPackage\" />
+    <Folder Include="mainPackage\" />
+    <Folder Include="utilsPackage\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
