@@ -21,6 +21,17 @@ This Python project solves the problem by:
 
 ---
 
+## Professor’s Contribution Instructions
+
+You are kindly requested to implement the following function in `utilsPackage/utils.py`:
+
+```python
+def is_prime(n):
+    # Return True if n is a prime number, otherwise False
+    pass
+
+---
+
 ## File Structure
 PrimeSubstringSolver/ 
 ├── mainPackage/
